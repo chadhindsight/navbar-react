@@ -1,19 +1,20 @@
 import Pricing from "./pages/Pricing"
 import Home from "./pages/Home"
 import About from "./pages/About"
-import { Route, Router } from "react-router-dom"
+import { Route, Routes } from "react-router-dom"
 import Navbar from "./NavBar"
+import './styles.css'
 
 function App() {
   return (
     <>
       <Navbar />
       <div className="container">
-        <Router>
+        <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/pricing" element={<Pricing />} />
           <Route path="/about" element={<About />} />
-        </Router>
+        </Routes>
       </div>
     </>
   )
