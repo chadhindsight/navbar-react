@@ -1,4 +1,4 @@
-// Header for price stuff
+// Header for price stuff.
 export default function Pricing() {
     return <h1>Pricing</h1>
 }
