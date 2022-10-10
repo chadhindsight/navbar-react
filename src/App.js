@@ -5,7 +5,7 @@ import { Route, Routes } from "react-router-dom"
 import Navbar from "./NavBar"
 import './styles.css'
 
-// Main stuff 
+// Main stuff would be here
 function App() {
   return (
     <>
